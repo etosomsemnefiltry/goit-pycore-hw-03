@@ -32,5 +32,5 @@ def get_days_from_today(date:str=''):
     # Превращаем расчетные данные сразу в секунды и арифметикой перегоняем в дни.
     return int(res.total_seconds()/60/60/24) 
 
-
+# run function
 print(get_days_from_today(date))
